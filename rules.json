@@ -1,0 +1,30 @@
+{
+  "who are you": {
+    "type": "static",
+    "response": "I am Sylph, your virtual assistant."
+  },
+  "help": {
+    "type": "static",
+    "response": "Commands: add, delete, show, summary, exit"
+  },
+  "add": {
+    "type": "dynamic",
+    "action": "add_task"
+  },
+  "delete": {
+    "type": "dynamic",
+    "action": "delete_task"
+  },
+  "show": {
+    "type": "dynamic",
+    "action": "show_tasks"
+  },
+  "summary": {
+    "type": "dynamic",
+    "action": "show_summary"
+  },
+  "exit": {
+    "type": "static",
+    "response": "Goodbye."
+  }
+}
