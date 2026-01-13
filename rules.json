@@ -21,7 +21,11 @@
   },
   "summary": {
     "type": "dynamic",
-    "action": "show_summary"
+    "action": "summarize_tasks"
+  },
+  "update": {
+    "type": "dynamic",
+    "action": "update_task_status"
   },
   "exit": {
     "type": "static",
